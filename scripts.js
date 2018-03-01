@@ -19,3 +19,7 @@ function Phone(brand, price, color) {
 var iPhone6S = new Phone("Apple", 2250, "silver");
 var SamsungS7 = new Phone("Samsung", 2500, "black");
 var Nokia3310 = new Phone("Nokia", 1000000, "deep blue");
+
+iPhone6S.printInfo();
+SamsungS7.printInfo();
+Nokia3310.printInfo();
